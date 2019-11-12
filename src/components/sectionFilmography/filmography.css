@@ -1,0 +1,44 @@
+.header{
+  text-align: center;
+}
+
+.containerFilms{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.containerInfo{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  margin-top:4%;
+  width: 400px;
+  height: 200px;
+}
+
+.containerInfo img{
+  width: 40%;
+}
+
+.description{
+  width: 50%;
+  margin-left: 5%;
+}
+
+.description h2{
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: rgb(240, 68, 11);
+}
+
+.description h3{
+  margin: 0;
+  font-size: 1rem;
+}
+
+.description p{
+  font-size: 0.9rem;
+}
