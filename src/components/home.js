@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Filmography from './sectionFilmography/filmography'
+import Filmography from './sectionFilmography/filmography';
+import Events from './sectionEvents/events'
 import M from 'materialize-css';
 
 class home extends Component {
@@ -26,16 +27,15 @@ class home extends Component {
       <Filmography 
         title= "FILMOGRAFIA"
       />
+
       <div className="parallax-container">
         <div className="parallax" ><img src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80" alt="adolfo"/></div>
       </div>
-      <div className="section black">
-        <div className="row container">
-          <h2 className="header white-text text-white">Parallax</h2>
-          <p className="white-text text-white">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
-          <h2 className="header white-text text-white">Parallax</h2>
-        </div>
-      </div>
+
+      <Events 
+        title= "EVENTOS"
+      />
+      
       <div className="parallax-container">
         <div className="parallax"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="adolfo"/></div>
       </div>

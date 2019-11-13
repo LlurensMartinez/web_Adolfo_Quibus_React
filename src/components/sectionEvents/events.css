@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
+.containerEvents{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 21px;
+  border-bottom: none !important;
+}
+
+.borderNone{
+  border:none !important;
+}
+
+.containerEvents span{
+  font-size: 3rem;
+  font-weight: 700;
+  color: rgb(196, 21, 21);
+}
+
+.containerEvents h2{
+  font-size: 1rem;
+}
+
+.containerEvents h3{
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin:0;
+}
