@@ -1,0 +1,13 @@
+#imgBio{
+  width: 90%;
+}
+
+.bioContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pBio{
+  padding: 5%;
+}
+

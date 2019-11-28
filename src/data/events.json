@@ -2,8 +2,8 @@
  {
    "id": 1,
    "day": 10,
-   "month": "Nov",
-   "title": "DECIMO FESTIVAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
+   "month": "Dic",
+   "title": "DECIMO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
    "info": {
      "weekday":"Martes",
      "year":"2019",
@@ -19,14 +19,14 @@
  {
   "id": 2,
   "day": 24,
-  "month": "Ene",
-  "title": "DECIMO FESTIVAL PRESENTADO POR ADOLFO QUIBUS",
+  "month": "Dic",
+  "title": "NOVENO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
   "info": {
     "weekday":"Martes",
-    "year":"2019",
+    "year":"2018",
     "hour":"10:00 AM",
     "place": "Cines Girona",
-    "completeMonth": "Noviembre",
+    "completeMonth": "DICIEMBRE",
     "city":"Barcelona",
     "street":"Carrer Rossello 118",
     "zip": "08036",
@@ -36,14 +36,14 @@
 {
   "id": 3,
   "day": 29,
-  "month": "Feb",
-  "title": "DECIMO PRESENTADO POR ADOLFO QUIBUS",
+  "month": "Dic",
+  "title": "OCTAVO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
   "info": {
     "weekday":"Martes",
     "year":"2019",
     "hour":"10:00 AM",
     "place": "Cines Girona",
-    "completeMonth": "Noviembre",
+    "completeMonth": "DICIEMBRE",
     "city":"Barcelona",
     "street":"Carrer Rossello 118",
     "zip": "08036",

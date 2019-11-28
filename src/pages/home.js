@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Filmography from '../components/sectionFilmography/filmography';
+import Biography from '../components/sectionBiography/biography';
 import NavBar from '../components/navBar/navBar';
 import Events from '../components/sectionEvents/events'
 import M from 'materialize-css';
@@ -45,8 +46,15 @@ class home extends Component {
         <div className="parallax"><img src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80" alt="adolfo"/></div>
       </div>
 
+      <section className="sliderContainer black">
       <SwiftSlider 
           data={slider}
+          height={700}
+      />
+      </section>
+
+      <Biography 
+        title= "BIOGRAFIA"
       />
 
     </>

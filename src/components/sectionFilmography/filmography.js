@@ -7,9 +7,9 @@ import {
 
 const filmography = ({title}) => {
  
-  const renderMovies = movies.map(movie => 
+  const renderMovies = movies.map(movie =>
         <div key={movie.id} className="containerInfo">
-          <img src={movie.img} alt=""/>
+          <img src={movie.img} alt="pelicula"/>
           <div className="description">
             <h2>{movie.title}</h2>
             <h3>{movie.date}</h3>
