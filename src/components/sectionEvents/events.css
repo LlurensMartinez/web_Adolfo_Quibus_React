@@ -8,6 +8,14 @@
   border-bottom: none !important;
 }
 
+#red:focus{
+  color: rgb(196, 21, 21);
+}
+
+#white:focus{
+  color: white;
+}
+
 .borderNone{
   border:none !important;
 }
@@ -24,6 +32,10 @@
 
 .containerEvents h3{
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   margin:0;
+}
+
+.section h2{
+  font-weight: 700;
 }

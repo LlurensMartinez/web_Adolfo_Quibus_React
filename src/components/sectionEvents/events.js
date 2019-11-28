@@ -6,36 +6,49 @@ import './events.css'
 class events extends Component {
 
   state = {
-    isClicked: false
+    isClicked: false,
+    color: "",
+    id: 0
   }
 
   componentDidMount(){
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.collapsible');
-      M.Collapsible.init(elems);
-    });
+    var elems = document.querySelectorAll('.collapsible');
+    M.Collapsible.init(elems);
   }
 
-  iconChange = () => {
-    if(this.state.isClicked === false){
+  iconChange = (idClick) => {
+    const { id, isClicked } = this.state
+    if(id !== idClick){
       this.setState({
-        isClicked:true
-      });
-    } else {
-      this.setState({
-        isClicked:false
+        isClicked:true,
+        color:"red",
+        id: idClick
       });
     }
+    if(id === idClick){
+      if(isClicked === false){
+        this.setState({
+          isClicked:true,
+          color:"red",
+        });
+      } else {
+        this.setState({
+          isClicked:false,
+          color:"white",
+        });
+      }
+    }
+    
   }
 
   renderMovies = () => {
     return eventsData.map(event => 
       <li key={event.id}>
-        <div onClick={this.iconChange}className="collapsible-header black containerEvents">
+        <div onClick={() => this.iconChange(event.id)} className="collapsible-header black containerEvents" id={this.state.color}>
           <h2><span>{event.day}</span> <b>{event.month}</b></h2>
-          <h3>{event.title}</h3>
+          <h3 >{event.title}</h3>
           {
-          this.state.isClicked === false ? 
+          this.state.isClicked === false ?
           <i className="large material-icons">expand_more</i> 
           : 
           <i className="large material-icons">expand_less</i>

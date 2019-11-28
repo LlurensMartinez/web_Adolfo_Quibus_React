@@ -1,17 +1,25 @@
 import React from 'react';
-import Home from './components/home'
-import NavBar from './components/navBar/navBar'
+import Home from './pages/home';
+import MoviesDetails from './pages/moviesDetails';
+import VideoYouTube from './pages/videoYouTube';
+
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <NavBar />
-      <Home
-        title= "Adolfo Quibus"
-        subtitle= '[ actor & productor & director ]'
-      />
-    </>
+    <Router>
+      <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/movies/:id" children={<MoviesDetails />} />
+          <Route exact path="/movies/:id/:title" children={<VideoYouTube />} />
+          {/* <Route exact path="*" component={NoMatch} /> */}
+      </Switch>
+    </Router>
   );
 }
 

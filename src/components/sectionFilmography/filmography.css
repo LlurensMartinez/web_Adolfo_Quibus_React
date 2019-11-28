@@ -23,6 +23,9 @@
 }
 
 .description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 50%;
   margin-left: 5%;
 }
