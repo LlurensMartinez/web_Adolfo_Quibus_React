@@ -19,7 +19,7 @@ const filmography = ({title}) => {
         </div>)
   
   return (
-    <section className="section black">
+    <section id="filmography" className="section black">
           <h2 className="header white-text text-white">{title}</h2>
           <div className="containerFilms">
             {renderMovies}

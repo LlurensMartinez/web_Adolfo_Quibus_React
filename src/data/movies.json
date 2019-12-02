@@ -1,24 +1,15 @@
 [
   {
     "id":1,
-    "title": "Mi amigo el alzeimer (trailer)",
-    "url":"https://www.youtube.com/embed/rIUUh3QF9xg",
-    "duration":"2",
-    "img": "../images/alzheimer.jpg",
-    "date": "31 de Mayo del 2010",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus quaerat"
-  },
-  {
-    "id":2,
     "title": "El Septimo Sentido",
     "url":"http://www.youtube.com/embed/Wqm9CIf1EHU",
     "duration":"64",
-    "img": "https://pics.filmaffinity.com/el_sete_sentit-427208541-msmall.jpg",
+    "img": "http://nunescine.es/0f65f660.jpg",
     "date": "30 de Julio del 2012",
     "description": "El cine reconocido como séptimo arte también es un sentido. Descubrimiento del gran José Mª Nunes, que nos revela en esta película única."
   },
   {
-    "id":3,
+    "id":2,
     "title": "El pintor de sueños",
     "url":"http://www.youtube.com/embed/sRv1OUXFCso",
     "duration":"72",
@@ -27,7 +18,7 @@
     "description": "Cuando las siete artes se reúnen en una sola película gracias a la vida y la obra del que fue un sensacional ser humano: TOMAS C. GILSANZ"
   },
   {
-    "id":4,
+    "id":3,
     "title": "Paseos magicos, personajes y pueblos",
     "url":"http://www.youtube.com/embed/SSsx1centvs",
     "duration":"25",
@@ -36,25 +27,7 @@
     "description": "Formato televisivo que nos muestra una forma nueva de ver los pueblos de nuestro entorno. HOY: BINEFAR"
   },
   {
-    "id":5,
-    "title": "Historia de Q (Making off)",
-    "url":"http://www.youtube.com/embed/r_37TnH8bIg",
-    "duration":"1",
-    "img": "https://i.ytimg.com/vi/9z6ZXn38Q2Q/maxresdefault.jpg",
-    "date": "14 de Julio del 2012",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus "
-  },
-  {
-    "id":6,
-    "title": "El precio (trailer)",
-    "url":"http://www.youtube.com/embed/-UAwLaXl5AI",
-    "duration":"8",
-    "img": "https://i.ytimg.com/vi/DpU5FLARw8E/hqdefault.jpg",
-    "date": "26 de Junio del 2012",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibu"
-  },
-  {
-    "id":7,
+    "id":4,
     "title": "Videobook de la faceta de actor de Adolfo Quibus",
     "url":"http://www.youtube.com/embed/4myb-naQr3M",
     "duration":"4",
@@ -63,12 +36,21 @@
     "description": "Videobook resumiendo los mejores momentos de Adolfo. Video único que no te puedes perder."
   },
   {
-    "id":8,
+    "id":5,
     "title": "Mister Smit",
     "url":"http://www.youtube.com/embed/h57p7BjqZYA",
     "duration":"2",
     "img": "https://www.edicionesvernacci.com/wp-content/uploads/Adolfo_Quibus-195x300.jpg",
     "date": "30 de Abril de 2010",
     "description": "Mister smit un personaje surrealista que ve las noticias de un modo especial."
+  },
+  {
+    "id":6,
+    "title": "Resumen  8 Festivales Internacionales de Cine NUNES",
+    "url":"http://www.youtube.com/embed/K0G0g697CYg",
+    "duration":"9",
+    "img": "https://fantasticineblog.files.wordpress.com/2018/11/8-festival-nuneslogo.jpg",
+    "date": "17 de Noviembre de 2019",
+    "description": "Resumen de todos los festivales anteriores, hay todo tipo de detalles: peliculas participantes, entradas al evento, entrega de premios..."
   }
 ]

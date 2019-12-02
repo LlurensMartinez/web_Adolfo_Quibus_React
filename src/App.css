@@ -10,6 +10,10 @@ body{
   height: 700px !important;
 }
 
+p{
+  font-size: 1.2rem;
+}
+
 .containerHome{
   position: absolute;
   display:flex;

@@ -1,0 +1,32 @@
+.sectionFestival{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.festivalContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 5% 0px;
+}
+
+.festivalContainer img{
+  width: 100%;
+  margin: 5% 0px;
+}
+.festivalContainer h2{
+  margin: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+#buttonProgram{
+  border: 2px solid red;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5%;
+  font-size: 1.2rem;
+}

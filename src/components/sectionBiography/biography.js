@@ -6,7 +6,7 @@ import {
 
 const biography = ({title}) => {
   return (
-    <section className="section black">
+    <section id="biography" className="section black">
       <div className="bioContainer">
           <h2 className="header white-text text-white">{title}</h2>
           <img className="imgBio" src="images/image5.jpg" alt="adolfo"/>

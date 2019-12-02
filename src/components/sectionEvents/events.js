@@ -69,7 +69,7 @@ class events extends Component {
   
   render() {
     return (
-      <section className="section black">
+      <section id="events" className="section black">
           <h2 className="header white-text text-white">{this.props.title}</h2>
           <ul className="collapsible borderNone">
           {this.renderMovies()}

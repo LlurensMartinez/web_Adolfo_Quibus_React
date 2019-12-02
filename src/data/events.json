@@ -1,7 +1,7 @@
 [
  {
    "id": 1,
-   "day": "10, 11, 12, 13 y 14",
+   "day": "10 - 14",
    "month": "Dic",
    "title": "NOVENO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
    "info": {
@@ -11,7 +11,7 @@
      "place": "Ateneo Libertario",
      "completeMonth": "Diciembre",
      "city":"Barcelona",
-     "street":"Calle Torrente de la Perera",
+     "street":"Carrer de l'Alzina 5",
      "zip": "08033",
      "country": "España"
    }
