@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Filmography from '../components/sectionFilmography/filmography';
 import Biography from '../components/sectionBiography/biography';
 import NavBar from '../components/navBar/navBar';
-import Events from '../components/sectionEvents/events'
+import Events from '../components/sectionEvents/events';
+import Contact from '../components/sectionContact/contact'
 import M from 'materialize-css';
 import SwiftSlider from 'react-swift-slider';
 import slider from '../data/slider.json';
@@ -56,6 +57,12 @@ class home extends Component {
       <Biography 
         title= "BIOGRAFIA"
       />
+
+      <Contact 
+        email = "adolfoquibus@gmail.com"
+        phone = "+34 688 30 65 81"
+
+      />    
 
     </>
     );

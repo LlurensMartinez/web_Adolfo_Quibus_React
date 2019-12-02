@@ -1,9 +1,9 @@
 [
   {
     "id":1,
-    "title": "Mi amigo el alzeimer",
+    "title": "Mi amigo el alzeimer (trailer)",
     "url":"https://www.youtube.com/embed/rIUUh3QF9xg",
-    "duration":"65",
+    "duration":"2",
     "img": "../images/alzheimer.jpg",
     "date": "31 de Mayo del 2010",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus quaerat"
@@ -13,34 +13,34 @@
     "title": "El Septimo Sentido",
     "url":"http://www.youtube.com/embed/Wqm9CIf1EHU",
     "duration":"64",
-    "img": "https://i.pinimg.com/originals/4c/d3/ec/4cd3ec9b3650ca2e7079e55b3b915e35.jpg",
+    "img": "https://pics.filmaffinity.com/el_sete_sentit-427208541-msmall.jpg",
     "date": "30 de Julio del 2012",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus quaer"
+    "description": "El cine reconocido como séptimo arte también es un sentido. Descubrimiento del gran José Mª Nunes, que nos revela en esta película única."
   },
   {
     "id":3,
     "title": "El pintor de sueños",
     "url":"http://www.youtube.com/embed/sRv1OUXFCso",
     "duration":"72",
-    "img": "https://k60.kn3.net/taringa/B/C/7/C/1/3/IgnacioLopez8/5B3.png",
+    "img": "https://i.ytimg.com/vi/tfmRYLrSP9c/hqdefault.jpg",
     "date": "5 de Mayo del 2012",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus"
+    "description": "Cuando las siete artes se reúnen en una sola película gracias a la vida y la obra del que fue un sensacional ser humano: TOMAS C. GILSANZ"
   },
   {
     "id":4,
-    "title": "Cris y Adolfo (Corto)",
-    "url":"http://www.youtube.com/embed/Gxh7Bw5VIWU",
-    "duration":"5",
-    "img": "https://i.pinimg.com/originals/ab/5d/26/ab5d2688d607dd1e701a4d6df780d2e0.jpg",
-    "date": "17 de Febrero del 2014",
-    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibu"
+    "title": "Paseos magicos, personajes y pueblos",
+    "url":"http://www.youtube.com/embed/SSsx1centvs",
+    "duration":"25",
+    "img": "images/Bienfar.png",
+    "date": "2 de Agosto del 2016",
+    "description": "Formato televisivo que nos muestra una forma nueva de ver los pueblos de nuestro entorno. HOY: BINEFAR"
   },
   {
     "id":5,
     "title": "Historia de Q (Making off)",
     "url":"http://www.youtube.com/embed/r_37TnH8bIg",
     "duration":"1",
-    "img": "https://i.pinimg.com/originals/21/76/81/2176813246284820d1007f1decbce6f8.jpg",
+    "img": "https://i.ytimg.com/vi/9z6ZXn38Q2Q/maxresdefault.jpg",
     "date": "14 de Julio del 2012",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibus "
   },
@@ -49,8 +49,26 @@
     "title": "El precio (trailer)",
     "url":"http://www.youtube.com/embed/-UAwLaXl5AI",
     "duration":"8",
-    "img": "https://k50.kn3.net/taringa/E/C/4/0/7/8/mtpd/620.jpg",
+    "img": "https://i.ytimg.com/vi/DpU5FLARw8E/hqdefault.jpg",
     "date": "26 de Junio del 2012",
     "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sequi velit, doloremque eos quibusdam nihil veritatis corrupti harum, nesciunt, necessitatibu"
+  },
+  {
+    "id":7,
+    "title": "Videobook de la faceta de actor de Adolfo Quibus",
+    "url":"http://www.youtube.com/embed/4myb-naQr3M",
+    "duration":"4",
+    "img": "https://s3.amazonaws.com/verkami-production/avatars/286276/square_big.JPG?1428251002",
+    "date": "4 de Agosto del 2016",
+    "description": "Videobook resumiendo los mejores momentos de Adolfo. Video único que no te puedes perder."
+  },
+  {
+    "id":8,
+    "title": "Mister Smit",
+    "url":"http://www.youtube.com/embed/h57p7BjqZYA",
+    "duration":"2",
+    "img": "https://www.edicionesvernacci.com/wp-content/uploads/Adolfo_Quibus-195x300.jpg",
+    "date": "30 de Abril de 2010",
+    "description": "Mister smit un personaje surrealista que ve las noticias de un modo especial."
   }
 ]

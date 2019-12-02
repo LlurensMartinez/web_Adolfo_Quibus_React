@@ -1,18 +1,18 @@
 [
  {
    "id": 1,
-   "day": 10,
+   "day": "10, 11, 12, 13 y 14",
    "month": "Dic",
-   "title": "DECIMO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
+   "title": "NOVENO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
    "info": {
      "weekday":"Martes",
      "year":"2019",
-     "hour":"10:00 AM",
-     "place": "Cines Girona",
-     "completeMonth": "Noviembre",
+     "hour":"18:00 PM",
+     "place": "Ateneo Libertario",
+     "completeMonth": "Diciembre",
      "city":"Barcelona",
-     "street":"Carrer Rossello 118",
-     "zip": "08036",
+     "street":"Calle Torrente de la Perera",
+     "zip": "08033",
      "country": "España"
    }
  },
@@ -20,7 +20,7 @@
   "id": 2,
   "day": 24,
   "month": "Dic",
-  "title": "NOVENO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
+  "title": "OCTAVO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
   "info": {
     "weekday":"Martes",
     "year":"2018",
@@ -37,7 +37,7 @@
   "id": 3,
   "day": 29,
   "month": "Dic",
-  "title": "OCTAVO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
+  "title": "SEPTIMO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
   "info": {
     "weekday":"Martes",
     "year":"2019",

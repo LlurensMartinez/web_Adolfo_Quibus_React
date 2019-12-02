@@ -5,3 +5,7 @@
 .background img{
   width: 100%;
 }
+
+.material-icons.red600 { 
+  color: rgb(196, 21, 21) !important;
+}
