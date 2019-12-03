@@ -1,6 +1,7 @@
 {
   "name": "front-adolfo",
   "version": "0.1.0",
+  "homepage":"https://adolfoquibus.com",
   "private": true,
   "dependencies": {
     "@types/react-router-dom": "^5.1.2",
