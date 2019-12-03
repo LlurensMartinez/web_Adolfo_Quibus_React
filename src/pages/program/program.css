@@ -1,0 +1,22 @@
+.sectionProgram{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  height: 160vh;
+}
+.red{
+  font-weight: 500;
+  padding: 1%;
+  border-radius: 10px;
+}
+
+#buttonFestival{
+  border: 2px solid red;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5%;
+  font-size: 1.2rem;
+}

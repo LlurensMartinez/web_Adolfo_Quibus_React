@@ -3,6 +3,7 @@ import Home from './pages/home';
 import MoviesDetails from './pages/moviesDetails';
 import VideoYouTube from './pages/videoYouTube';
 import Biography from './pages/biography';
+import Program from './pages/program/program';
 
 import './App.css';
 import {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/movies/:id" children={<MoviesDetails />} />
           <Route exact path="/movies/:id/:title" children={<VideoYouTube />} />
           <Route exact path="/biography" component={Biography} />
+          <Route exact path="/program" component={Program} />
           {/* <Route exact path="*" component={NoMatch} /> */}
       </Switch>
     </Router>
