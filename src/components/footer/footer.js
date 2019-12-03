@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.css'
 
 const footer = () => {
   return (
@@ -10,12 +11,15 @@ const footer = () => {
             <p className="grey-text text-lighten-4">Producciones Cinematograficas S.L.</p>
           </div>
           <div className="col l4 offset-l2 s12">
-            <h5 className="white-text">Links</h5>
+            <h5 className="white-text">Redes Sociales</h5>
             <ul>
-              <li><a className="grey-text text-lighten-3" href="#!">Facebook</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Instagram</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Youtube</a></li>
-              <li><a className="grey-text text-lighten-3" href="#!">Tweeter</a></li>
+              <div className="socialContainer">
+                <li><a className="grey-text text-lighten-3" href="https://www.facebook.com/adolfoquibus"><i className="fab fa-facebook iconSocial"></i></a></li>
+                <li><a className="grey-text text-lighten-3" href="https://www.instagram.com/adolfoquibus"><i className="fab fa-instagram iconSocial"></i></a></li>
+                <li><a className="grey-text text-lighten-3" href="https://www.youtube.com/user/adolfoquibus1"><i className="fab fa-youtube iconSocial"></i></a></li>
+                <li><a className="grey-text text-lighten-3" href="https://twitter.com/adolfoquibus"><i className="fab fa-twitter iconSocial"></i></a></li>
+                <li><a className="grey-text text-lighten-3" href="https://www.linkedin.com/in/adolfo-quibus-garcia-45691117/"><i className="fab fa-linkedin-in iconSocial"></i></a></li>
+              </div>
             </ul>
           </div>
         </div>

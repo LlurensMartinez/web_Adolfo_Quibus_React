@@ -11,3 +11,12 @@
   padding: 5%;
 }
 
+#buttonMore, #buttonBioBack{
+  border: 2px solid rgb(196, 21, 21);
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 5%;
+  font-size: 1.2rem;
+}
+

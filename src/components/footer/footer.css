@@ -1,0 +1,12 @@
+.iconSocial{
+  font-size: 2.5rem;
+}
+
+.socialContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+  width:100%;
+  margin-top:5%;
+}

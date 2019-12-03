@@ -8,6 +8,7 @@ class events extends Component {
   state = {
     isClicked: false,
     color: "",
+    arrow: "up",
     id: 0
   }
 
@@ -22,6 +23,7 @@ class events extends Component {
       this.setState({
         isClicked:true,
         color:"red",
+        arrow:"up",
         id: idClick
       });
     }
@@ -30,11 +32,13 @@ class events extends Component {
         this.setState({
           isClicked:true,
           color:"red",
+          arrow:"up",
         });
       } else {
         this.setState({
           isClicked:false,
           color:"white",
+          arrow:"down"
         });
       }
     }
@@ -48,10 +52,13 @@ class events extends Component {
           <h2><span>{event.day}</span> <b>{event.month}</b></h2>
           <h3 >{event.title}</h3>
           {
-          this.state.isClicked === false ?
+          event.id !== this.state.id && this.state.arrow === "up" ?
           <i className="large material-icons">expand_more</i> 
-          : 
+          :
+          event.id === this.state.id && this.state.arrow === "up" ?
           <i className="large material-icons">expand_less</i>
+          :
+          <i className="large material-icons">expand_more</i>
           }
 
         </div>

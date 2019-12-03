@@ -9,3 +9,8 @@
 .material-icons.red600 { 
   color: rgb(196, 21, 21) !important;
 }
+
+nav{
+  position:fixed;
+  z-index:100;
+}

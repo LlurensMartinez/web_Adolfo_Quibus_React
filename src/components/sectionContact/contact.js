@@ -6,9 +6,9 @@ const contact = ({email, phone}) => {
     <section id="contact" className="black sectionContact">
       <h2>CONTACTO</h2>
       <div className="contactContainer">
-        <i className="large material-icons">contact_phone</i>
+        <i className="fab fa-whatsapp" id="whatsapp"></i>
         <p>{phone}</p>
-        <i className="large material-icons">contact_mail</i>
+        <i className="far fa-paper-plane" id="email"></i>
         <p>{email}</p>
       </div>
     </section>

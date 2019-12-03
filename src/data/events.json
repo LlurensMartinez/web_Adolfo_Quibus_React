@@ -24,12 +24,12 @@
   "info": {
     "weekday":"Martes",
     "year":"2018",
-    "hour":"10:00 AM",
+    "hour":"18:00 AM",
     "place": "Cines Girona",
     "completeMonth": "DICIEMBRE",
     "city":"Barcelona",
-    "street":"Carrer Rossello 118",
-    "zip": "08036",
+    "street":"Carrer de Girona 175",
+    "zip": "08037",
     "country": "Spain"
   }
 },
@@ -41,12 +41,12 @@
   "info": {
     "weekday":"Martes",
     "year":"2019",
-    "hour":"10:00 AM",
+    "hour":"18:00 AM",
     "place": "Cines Girona",
     "completeMonth": "DICIEMBRE",
     "city":"Barcelona",
-    "street":"Carrer Rossello 118",
-    "zip": "08036",
+    "street":"Carrer de Girona 175",
+    "zip": "08037",
     "country": "Spain"
   }
 }
