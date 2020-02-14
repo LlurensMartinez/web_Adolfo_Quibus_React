@@ -15,39 +15,5 @@
      "zip": "08033",
      "country": "España"
    }
- },
- {
-  "id": 2,
-  "day": 24,
-  "month": "Dic",
-  "title": "OCTAVO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
-  "info": {
-    "weekday":"Martes",
-    "year":"2018",
-    "hour":"18:00 AM",
-    "place": "Cines Girona",
-    "completeMonth": "DICIEMBRE",
-    "city":"Barcelona",
-    "street":"Carrer de Girona 175",
-    "zip": "08037",
-    "country": "Spain"
-  }
-},
-{
-  "id": 3,
-  "day": 29,
-  "month": "Dic",
-  "title": "SEPTIMO FESTIVAL INTERNACIONAL NUNES DIRIGIDO Y PRESENTADO POR ADOLFO QUIBUS",
-  "info": {
-    "weekday":"Martes",
-    "year":"2019",
-    "hour":"18:00 AM",
-    "place": "Cines Girona",
-    "completeMonth": "DICIEMBRE",
-    "city":"Barcelona",
-    "street":"Carrer de Girona 175",
-    "zip": "08037",
-    "country": "Spain"
-  }
-}
+ }
 ]
